@@ -4,8 +4,6 @@
 
 ### Sistema de pedidos para pollerías con recepcionista de voz y agentes de inteligencia artificial
 
-*Rimay* significa "hablar" en quechua
-
 <br>
 
 <img src="https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk&logoColor=white">
