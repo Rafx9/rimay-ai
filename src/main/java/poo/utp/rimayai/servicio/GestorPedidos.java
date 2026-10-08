@@ -5,7 +5,7 @@ import poo.utp.rimayai.mensajeria.CanalMensajeria;
 import poo.utp.rimayai.modelo.EstadoPedido;
 import poo.utp.rimayai.modelo.Pedido;
 
- class GestorPedidos {
+public class GestorPedidos {
 
     private ArrayList<Pedido> pedidos;
     private Menu menu;
@@ -26,12 +26,13 @@ import poo.utp.rimayai.modelo.Pedido;
     }
 
     public ArrayList<Pedido> listarTodos() {
-        return null
-    
-;
+        return null;
     }
 
     public ArrayList<Pedido> listarPorEstado(EstadoPedido e) {
         return null;
     }
-} // Envía el aviso por WhatsApp al cliente y a la cocina. private void notificar(Pedido p) { }
+
+    private void notificar(Pedido p) {
+    }
+}

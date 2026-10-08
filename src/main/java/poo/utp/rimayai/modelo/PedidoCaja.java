@@ -1,6 +1,6 @@
 package poo.utp.rimayai.modelo;
 
- class PedidoCaja extends Pedido {
+public class PedidoCaja extends Pedido {
 
     private String cajero;
     private boolean paraLlevar;

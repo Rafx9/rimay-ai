@@ -5,22 +5,18 @@ import poo.utp.rimayai.modelo.Cliente;
 import poo.utp.rimayai.modelo.Pedido;
 import poo.utp.rimayai.modelo.SegmentoCliente;
 
-  
+public class GestorClientes {
 
-    public class GestorClientes {
+    private ArrayList<Cliente> clientes;
 
-        private ArrayList<Cliente> clientes;
+    public Cliente buscarPorTelefono(String telefono) {
+        return null;
+    }
 
-        public Cliente buscarPorTelefono(String telefono) {
-            return null;
-        }
-
-        public void registrarCompra(Pedido p) {
-        }
+    public void registrarCompra(Pedido p) {
     }
 
     public ArrayList<Cliente> listarPorSegmento(SegmentoCliente s) {
         return null;
     }
-
-
+}

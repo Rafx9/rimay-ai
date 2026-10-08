@@ -5,18 +5,16 @@ import java.util.ArrayList;
 import poo.utp.rimayai.modelo.Pedido;
 import poo.utp.rimayai.modelo.Producto;
 
-  
+public class ReporteVentas {
 
-    public class ReporteVentas {
+    private LocalDate fecha;
+    private ArrayList<Pedido> pedidos;
 
-        private LocalDate fecha;
-        private ArrayList<Pedido> pedidos;
-        private ArrayList<Pedido> pedidos;
-    
-
-    return 0;
+    public double totalVendido() {
+        return 0;
     }
-public Producto productoMasVendido() {
+
+    public Producto productoMasVendido() {
         return null;
     }
 
