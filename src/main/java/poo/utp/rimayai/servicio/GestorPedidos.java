@@ -10,6 +10,8 @@ public class GestorPedidos {
     private ArrayList<Pedido> pedidos;
     private Menu menu;
     private CanalMensajeria canal;
+    private Inventario inventario;
+    private GestorClientes gestorClientes;
     private String numeroCocina;
     private int contador;
 
@@ -30,7 +32,6 @@ public class GestorPedidos {
     public ArrayList<Pedido> listarPorEstado(EstadoPedido e) {
         return null;
     }
-// Envía el aviso por WhatsApp al cliente y a la cocina.
 
     private void notificar(Pedido p) {
     }

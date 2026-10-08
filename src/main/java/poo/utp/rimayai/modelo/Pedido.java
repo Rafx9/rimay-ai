@@ -10,6 +10,8 @@ public abstract class Pedido {
     protected ArrayList<DetallePedido> detalles = new ArrayList<>();
     protected EstadoPedido estado;
     protected LocalDateTime fechaHora;
+    protected LocalDateTime horaEntrega;
+    protected Repartidor repartidor;
 
     public void agregarDetalle(DetallePedido d) {
     }
@@ -19,6 +21,10 @@ public abstract class Pedido {
     }
 
     public void cambiarEstado(EstadoPedido e) {
+    }
+
+    public boolean esProgramado() {
+        return false;
     }
 
     public String generarResumen() {
