@@ -70,10 +70,10 @@ El sistema está compuesto por **35 clases** distribuidas en **5 paquetes**, cad
 ### servicio
 ![Paquete servicio](docs/03-servicio.png)
 
-### ai · Recepcionista de voz
+### ai - Recepcionista de voz
 ![Recepcionista de voz](docs/04-ai-recepcionista.png)
 
-### ai · Agentes de decisión
+### ai - Agentes de decisión
 ![Agentes de IA](docs/05-ai-agentes.png)
 
 ### mensajeria
